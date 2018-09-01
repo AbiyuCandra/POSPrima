@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#497fb1</color>
+    <color name="colorPrimaryDark">#41749f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Putih">#FFFFFF</color>
+    <color name="BiruButton">#0298e6</color>
+    <color name="Kuning">#f1ed06</color>
+    <color name="tabTextColor">#0298e6</color>
+    <color name="tabIndicator">#33b2f4</color>
+</resources>
