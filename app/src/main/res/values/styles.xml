@@ -15,4 +15,8 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
+    <style name="SplashScreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="SplashScreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

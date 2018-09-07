@@ -1,12 +1,11 @@
 package com.example.user.posprima.MenuAwal;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.user.posprima.R;
 
@@ -25,7 +24,7 @@ public class splashScreen extends AppCompatActivity {
             public void run(){
                 try{
                     sleep(4000);
-                    Intent i = new Intent(getApplicationContext(), login_form.class);
+                    Intent i = new Intent(getApplicationContext(), Welcome_Screen.class);
                     startActivity(i);
                     finish();
                 } catch (InterruptedException e) {

@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.user.posprima.DashboardPackage.Dashboard;
+import com.example.user.posprima.DashboardPackage.Dashboard_tab;
 import com.example.user.posprima.R;
 
 public class login_form extends AppCompatActivity {
@@ -21,7 +22,7 @@ public class login_form extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), Dashboard.class));
+                startActivity(new Intent(getApplicationContext(), Dashboard_tab.class));
             }
         });
         // akhir

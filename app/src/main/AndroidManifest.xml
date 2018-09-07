@@ -19,8 +19,16 @@
         <activity
             android:name=".MenuAwal.login_form"
             android:theme="@style/SplashScreenTheme" />
-        <activity android:name=".DashboardPackage.Dashboard"
-            android:theme="@style/Dashboard"/>
+        <activity
+            android:name=".DashboardPackage.Dashboard"
+            android:theme="@style/Dashboard" />
+        <activity
+            android:name=".DashboardPackage.Dashboard_tab"
+            android:label="@string/title_activity_dashboard_tab"
+            android:theme="@style/SplashScreenTheme" />
+        <activity android:name=".DashboardPackage.Dashboard_Library" />
+        <activity android:name=".DashboardPackage.Dashboard_Barcode" />
+        <activity android:name=".MenuAwal.Welcome_Screen"></activity>
     </application>
 
 </manifest>
